@@ -31,10 +31,11 @@
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" im a noob lmao
 set mouse=a
 " Set line numbers on
 set number
+" hide top tabline
+set showtabline=1
 
 " Sets how many lines of history VIM has to remember
 set history=500
@@ -127,10 +128,6 @@ set tm=500
 if has("gui_macvim")
     autocmd GUIEnter * set vb t_vb=
 endif
-
-
-" Add a bit extra margin to the left
-set foldcolumn=1
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
